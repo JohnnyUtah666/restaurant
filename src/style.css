@@ -31,6 +31,13 @@ html, body {
 
 #content {
     flex: 1 1 auto;
-    
-    
+    display: flex;
+}
+
+#subcontent {
+    border: 2px solid black;
+    height: 80%;
+    width: 90%;
+    margin: 50px 100px 20px 100px;
+    border-radius: 15px;
 }

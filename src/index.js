@@ -5,6 +5,7 @@ import { populateHome } from './homeTab';
 
 
 
+
 let container = document.createElement('div');
 container.setAttribute('id', 'container');
 document.body.appendChild(container);
@@ -41,6 +42,7 @@ aboutButton.addEventListener("click", () => {
 let content = document.createElement('div');
 content.setAttribute('id', 'content');
 container.appendChild(content);
+
 
 let subcontent = document.createElement('div');
 subcontent.setAttribute('id', 'subcontent');
