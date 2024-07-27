@@ -1,9 +1,10 @@
 import './style.css';
-import { populateAbout } from './aboutTab';
+import { populateContact } from './aboutTab';
 import { populateMenu } from './menuTab';
 import { populateHome } from './homeTab';
-
-
+import bkg from './abstract.jpg'; //Image by Eduardo Davad from Pixabay
+const myImg = new Image();
+myImg.src = bkg;
 
 
 let container = document.createElement('div');
@@ -30,18 +31,20 @@ menuButton.addEventListener("click", () => {
     populateMenu();
 })
 
-let aboutButton = document.createElement('button');
-aboutButton.setAttribute('class', 'navButton');
-aboutButton.textContent = "About";
-header.appendChild(aboutButton);
-aboutButton.addEventListener("click", () => {
-    populateAbout();
+let contactButton = document.createElement('button');
+contactButton.setAttribute('class', 'navButton');
+contactButton.textContent = "Contact";
+header.appendChild(contactButton);
+contactButton.addEventListener("click", () => {
+    populateContact();
 })
 
 
 let content = document.createElement('div');
 content.setAttribute('id', 'content');
 container.appendChild(content);
+
+
 
 
 let subcontent = document.createElement('div');

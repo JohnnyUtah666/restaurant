@@ -1,8 +1,8 @@
-const populateAbout = () => {
+const populateContact = () => {
 
-    subcontent.textContent = "About Wired";
+    subcontent.textContent = "Contact Wired";
 }
 
 
 
-export {populateAbout};
+export {populateContact};
