@@ -3,7 +3,7 @@ const populateHome = () => {
     let banner = document.createElement('div');
     banner.setAttribute('id', 'banner');
     subcontent.appendChild(banner);
-    banner.textContent = "Glorkulon's Space Bar";
+    banner.textContent = "Glorkulon's Space BaR";
 
     let about = document.createElement('div');
     about.setAttribute('id', "about");
