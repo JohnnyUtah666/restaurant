@@ -3,17 +3,17 @@ const populateHome = () => {
     let banner = document.createElement('div');
     banner.setAttribute('id', 'banner');
     subcontent.appendChild(banner);
-    banner.textContent = "Glorkulon's Space BaR";
+    banner.textContent = "BIFF'S BURGER BaRN";
 
     let about = document.createElement('div');
     about.setAttribute('id', "about");
     subcontent.appendChild(about);
-    about.textContent = "Serving the West Glorkulucian Asteroid Belt since 15.678 A.D.! Specialists in mimicking the flesh and fibers coveted in the dishes of yesteryear. It may all be soy, but you'll eat it and you'll like it!";
+    about.textContent = "Crack into a burger! \nCrack into a shake! \nCrack into a bucket'a chicken or somethin' else we make! \nGet BIFFED!";
 
     let location = document.createElement('div');
     location.setAttribute('id', 'location');
     subcontent.appendChild(location);
-    location.textContent = "86685 Sprong Byway, Lil' Hrinkling PA, West G.A.B.";
+    location.textContent = "86685 Sprong Boulevard, Little Suskaloosa, WV 25985";
 }
 
 export {populateHome}
