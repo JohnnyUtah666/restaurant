@@ -1,9 +1,19 @@
+import brg from './burger.png'; //
+const myBurg = new Image();
+myBurg.src = brg;
+
 const populateHome = () => {
     document.getElementById("subcontent").innerHTML = "";
     let banner = document.createElement('div');
     banner.setAttribute('id', 'banner');
     subcontent.appendChild(banner);
     banner.textContent = "BIFF'S BURGER BaRN";
+
+    let burgerContainer = document.createElement('div');
+    burgerContainer.appendChild(myBurg);
+    burgerContainer.setAttribute('id', 'burgerContainer');
+    subcontent.appendChild(burgerContainer);
+
 
     let about = document.createElement('div');
     about.setAttribute('id', "about");

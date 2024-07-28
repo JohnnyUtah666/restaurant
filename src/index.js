@@ -5,6 +5,9 @@ import { populateHome } from './homeTab';
 import bkg from './abstract.jpg'; //Image by Eduardo Davad from Pixabay
 const myImg = new Image();
 myImg.src = bkg;
+import brg from './burger.png'; //
+const myBurg = new Image();
+myBurg.src = brg;
 
 
 let container = document.createElement('div');
