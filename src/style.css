@@ -37,6 +37,14 @@ html, body {
     font-family: 'Spacey';
 }
 
+.navButton:hover {
+    background-color: rgb(210, 210, 15);
+}
+
+.navButton:active {
+    color: hotpink;
+}
+
 #content {
     flex: 1 1 auto;
     display: flex;
@@ -109,4 +117,43 @@ html, body {
     max-width: 700px;
     white-space: pre-wrap;
     text-align: center;
+}
+
+#menuHeader {
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: #f10079;
+    font-size: 48px;
+    margin-top: 10px;
+    padding: 0 15px 0 15px;
+}
+
+#menuGrid {
+    display: flex;
+    
+}
+
+#grub, #bub {
+    border: solid 2px black;
+    border-radius: 20px;
+    background-color: orange;
+    font-size: 25px;
+    margin: 50px;
+    padding: 10px;
+    min-width: 250px;
+    white-space: pre-wrap;
+    text-align: center;
+}
+
+#grubHeader, #bubHeader {
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: #f10079;
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 0 15px 0 15px;
+}
+
+#grub1, #grub2, #grub3, #bub1, #bub2, #bub3 {
+    margin-bottom: 55px;
 }
