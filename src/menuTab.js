@@ -45,7 +45,7 @@ const populateMenu = () => {
     let bub1 = document.createElement('div');
     bub1.setAttribute('id', 'bub1');
     bub.appendChild(bub1);
-    bub1.textContent = "Beer\n~\nIf you order this we will give you a beer, dealer's choice. No Whining.\n$4.99";
+    bub1.textContent = "Beer\n~\nIf you order this we will give you a beer. Dealer's choice. No Whining.\n$4.99";
 
     let bub2 = document.createElement('div');
     bub2.setAttribute('id', 'bub2');
